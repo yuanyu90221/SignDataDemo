@@ -1,0 +1,10 @@
+import { AppRegistry } from 'react-native';
+import App from './App';
+// import Transaction from './rootCore/Interface/Transaction';
+// import WalletAddress from './rootCore/Interface/WalletAddress';
+// import Other from './rootCore/Interface/Other';
+// import { Api, Listener } from './rootCore/helper/index.js';
+import EVENT from './rootCore/config/event.js';
+// import {Header} from './components/Header.js';
+// export {Header};
+AppRegistry.registerComponent('SignDataDemo', () => App);
